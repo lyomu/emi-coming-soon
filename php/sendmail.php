@@ -6,11 +6,11 @@
   $message = @trim(stripslashes($_POST['message'])); 
 
   $email_from = $email;
-  $email_to = 'envalabteam@gmail.com'; //replace with your email
+  $email_to = 'gideon@emiinfluencersapp.com'; //replace with your email
 
   $message = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Message: ' . $message;
 
-  $success = @mail($email_to, "[Keus Landing] ".$name, $message);
+  $success = @mail($email_to, "[Eminent Media Inc] ".$name, $message);
 
-  $noreply = @mail($email_from, "[Keus Landing] Thank you to email us.", "We will be back to you soon!");
+  $noreply = @mail($email_from, "[Eminent Media Inc] Thank you to email us.", "We will be back to you soon!");
 ?>

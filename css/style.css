@@ -67,10 +67,11 @@ h1 {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 27px;
 	line-height: 0.667;
 	font-weight: 700;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
+	text-align: center;
 }
 
 h3 {
@@ -322,7 +323,8 @@ button:hover {
 	left:0px;
 }
 .navbar-brand{
-
+align-items: center;
+justify-content: center;
 }
 
 .navbar-brand h3{
